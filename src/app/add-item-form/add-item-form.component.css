@@ -1,0 +1,47 @@
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}input,
+button{
+    height: 45px;
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--light-grey);
+    outline: none;
+    font-size: 18px;
+    padding: 0 1rem;
+    border: 1px solid var(--white);
+}
+input[type="number"]:focus,
+input[type="text"]:focus {
+    border: 1px solid var(--purple);
+    background-color: var(--white);
+    color: var(--dark);
+    transition-duration: .3s;
+}
+input[type="number"] {
+    width: 23%;
+    transition-duration: .3s;
+    margin-right: 1%;
+}
+input[type="text"] {
+    width: 60%;
+    transition-duration: .3s;
+    margin-right: 1%;
+}
+input[type="number"]::placeholder,
+input[type="text"]::placeholder {
+    color: var(--paragraph);
+}
+button {
+    border: none;
+    width: 12%;
+    color: var(--white);
+    background-color: var(--purple);
+    transition-duration: .3s;
+}
+button:hover {
+    background-color: var(--dark);
+    transition-duration: .3s;
+}

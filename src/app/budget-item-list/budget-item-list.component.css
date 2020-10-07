@@ -1,0 +1,31 @@
+.budget-items-section {
+    width: 100vw;
+    height: auto;
+    padding: 1rem 0;
+}
+.budget-items-container {
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.income-column {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.income-column h1 {
+    color: var(--green);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.expenses-column {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.expenses-column h1 {
+    color: var(--red);
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}

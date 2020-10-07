@@ -1,0 +1,54 @@
+/* start of the top bar section */
+.top-bar {
+    width: 100vw;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(75deg, var(--purple), var(--light-purple));
+}
+.top-bar h1 {
+    color: var(--dark);
+    font-size: 25px;
+    font-weight: 400;
+}
+/* end of the top bar section */
+/* start of the total budget section */
+.total-budget-section {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: var(--dark);
+}
+.total-budget-section h2 {
+    color: var(--white);
+    font-weight: 200;
+    font-size: 50px;
+}
+.total-budget-section h2.green {
+    color: var(--green);
+}
+.total-budget-section h2.red {
+    color: var(--red);
+}
+/* end of the total budget section */
+/* start of the add item form section */
+.add-item-section {
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-item-container {
+    width: 40vw;
+}
+/* end of the add item form section */
+hr {
+    height: 2px;
+    background-color: var(--light-grey);
+    border: none;
+    outline: none;
+}
